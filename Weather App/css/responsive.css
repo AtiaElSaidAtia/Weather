@@ -1,0 +1,125 @@
+/* Small Screen */
+@media (max-width: 768px) {
+    .navbar .navbar-brand img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+
+/* Small to Medium Screen */
+@media (max-width: 991px) 
+{
+    .sm-bg {
+        height: 20px;
+        background-color:  #37aec3 ;
+    }
+
+    /* Header */
+    p,
+    .btn {font-size: 14px;}
+
+    .header,
+    .navbar a {
+        padding: 0 !important;
+    }
+
+    .navbar {
+        padding: 5px 0 !important;
+    }
+
+    .navbar .navbar-nav {
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 15px 0;
+        box-shadow: 0 0 5px #ccc;
+       
+    }
+
+    .navbar .nav-item,
+    .navbar .active {
+        border-radius: 20px;
+        font-size: 14px;
+        width: 25%;
+        margin: 6px auto;
+        text-align: center;
+        color: #37aec3 !important;
+        transition: all 0.3s;
+    }
+
+    .navbar .nav-item:hover,
+    .navbar .active {
+        background-color: #37aec3;
+        border-radius: 20px;
+      }
+
+    .navbar .active .nav-link  {color: #fff !important;}
+
+    .navbar .nav-link {
+        color: #37aec3;
+    }
+
+    .navbar .nav-link:hover {
+        color: #fff !important;
+    }
+
+    .navbar .nav-link:hover,
+    .navbar .home {
+        border-bottom: none;
+    }
+
+    .navbar .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .header::before {
+        background-image: url(../images/wave-sm.svg);
+    }
+
+    .header .header-info {padding: 15px 0;}
+
+    .header .header-info h2,
+    .header .header-img {text-align: center;}
+
+    .header .header-img img {width: 80%;}
+
+    /* Display Temp */
+    .display-temp .city-temp {display: block !important;}
+
+    .display-temp #search-bar {margin-bottom: 10px !important;}
+
+    .display-temp .search,
+    .display-temp .temp-card {
+        width: 100%;
+        margin: 20px 0 !important;
+    }
+
+    /* Download Mobile App */
+    .download-app .download-info {margin-top: 1rem !important;}
+
+    .download-app .download-img img {
+        width: 65%;
+    }
+
+    /* Subscribe */
+    .subscribe .subscribe-container {flex-direction: column!important;}
+
+    .subscribe .subscribe-info,
+    .subscribe .subscribe-img {width: 100%;}
+
+    .subscribe .subscribe-info {padding-top: 1rem !important;}
+
+    .subscribe input {width: 90% !important;}
+
+    .subscribe .subscribe-img img {width: 50% !important; margin-left: 0 !important;}
+
+    .subscribe .subscribe-container div:last-child {order: -1;}
+}
+
+
+
+
+
